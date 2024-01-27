@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon" />
     <link rel="stylesheet" href="assets/styles/style.css" />
     <title>Starbucks</title>
   </head>
   <body>
-    <header>
-      <nav class="layout">
+    <header id="fixed">
+      <nav class="layout margin">
         <a href="#" class="logo">logo</a>
 
         <div class="flex nav-menu">
@@ -32,20 +32,19 @@
               alt="location"
             />Localizar Tienda</a
           >
-
-          <button class="menu">
-            <img src="assets/img/icons/menu.svg" alt="menu icon" />
-          </button>
         </div>
+        <button class="menu">
+          <img src="assets/img/icons/menu.svg" alt="menu icon" />
+        </button>
       </nav>
     </header>
 
     <main>
-      <section class="banner banner1">
+      <section class="banner banner1 margin">
         <div class="banner__img">
           <img src="assets/img/newbanner1.jpg" alt="banner1" />
         </div>
-        <div class="banner__text text-white">
+        <div class="banner__text text-white margin">
           <h1><strong>Flan y caramelo</strong></h1>
           <h2>
             <strong>El modo perfecto</strong>
@@ -57,22 +56,22 @@
         </div>
       </section>
 
-      <section class="banner banner2 right">
+      <section class="banner banner2 right margin">
         <div class="banner__img">
           <img src="assets/img/banner2.jpg" alt="banner2" />
         </div>
-        <div class="banner__text">
+        <div class="banner__text margin">
           <h2><strong> EL CORAZÓN DE NUESTRAS BEBIDAS </strong></h2>
           <h4>¡Colombia, Espresso Roast y Colombia Nariño!</h4>
           <a href="#" class="button">Conoce más</a>
         </div>
       </section>
 
-      <section class="banner banner3">
+      <section class="banner banner3 margin">
         <div class="banner__img">
           <img src="assets/img/banner3.jpg" alt="banner2" />
         </div>
-        <div class="banner__text text-white">
+        <div class="banner__text text-white margin">
           <h2><strong> INFORME DE SUSTENTABILIDAD </strong></h2>
           <h4>
             Juntos seguimos construyendo un futuro más sostenible para el café
@@ -82,19 +81,19 @@
         </div>
       </section>
 
-      <section class="banner banner4 right">
+      <section class="banner banner4 right margin">
         <div class="banner__img">
           <img src="assets/img/banner4.jpg" alt="banner2" />
         </div>
-        <div class="banner__text text-white">
+        <div class="banner__text text-white margin">
           <h2><strong>Términos y Condiciones ACTIVIDADES</strong></h2>
           <a href="#" class="button">Más información</a>
         </div>
       </section>
     </main>
 
-    <footer>
-      <section class="layout container prefooter">
+    <footer class="margin">
+      <section class="layout container prefooter margin">
         <div class="container__prefooter">
           <div class="about">
             <h3 class="accordion"><a href="#!">Sobre nosotros</a></h3>
@@ -134,7 +133,7 @@
         </a>
       </section>
 
-      <section class="layout container footer">
+      <section class="layout container footer margin">
         <ul class="container__social">
           <li>
             <a href="#! " class="icon">
@@ -189,6 +188,6 @@
       </section>
     </footer>
 
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
   </body>
 </html>
